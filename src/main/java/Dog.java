@@ -1,12 +1,16 @@
-import interfaces.AnimalSoundInterface;
+import interfaces.Noise;
 
-public class Dog extends AnimalWithFur implements AnimalSoundInterface {
+public class Dog extends AnimalWithFur implements Noise {
 
     public Dog(String furColor) {
         super(furColor);
     }
 
-    public void animalSound() {
+    public Dog() {
+
+    }
+
+    public void makeSound() {
         System.out.println("Wuff");
     }
 

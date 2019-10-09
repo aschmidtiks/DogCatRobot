@@ -1,8 +1,11 @@
 public abstract class AnimalWithFur extends Animal {
 
-    protected String furColor;
+    private String furColor = "black";
     public AnimalWithFur(String furColor){
         this.furColor = furColor;
+    }
+    public AnimalWithFur() {
+
     }
 
     public String getFurColor(){

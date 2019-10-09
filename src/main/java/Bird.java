@@ -4,6 +4,6 @@ public abstract class Bird extends AnimalWithFeathers {
     }
 
     public Bird() {
-        super("Black");
+        this("Black");
     }
 }

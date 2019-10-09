@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -30,25 +29,25 @@ public class TestClass {
     @Test
     public void testAufgabe101() {
         System.out.println("------------------------------------Aufgabe1-Anfang-----------------------------------------");
-        dog1.animalSound();
-        dog2.animalSound();
+        dog1.makeSound();
+        dog2.makeSound();
         System.out.println("------------------------------------Aufgabe1-Ende-----------------------------------------");
     }
 
     @Test
     public void testAufgabe102() {
         System.out.println("------------------------------------Aufgabe2-Anfang-----------------------------------------");
-        cat1.animalSound();
-        cat2.animalSound();
+        cat1.makeSound();
+        cat2.makeSound();
         System.out.println("------------------------------------Aufgabe2-Ende-----------------------------------------");
     }
 
     @Test
     public void testAufgabe103() {
         System.out.println("------------------------------------Aufgabe3-Anfang-----------------------------------------");
-        cat1.animalSound();
+        cat1.makeSound();
         cat1.poop();
-        dog1.animalSound();
+        dog1.makeSound();
         dog1.poop();
         System.out.println("------------------------------------Aufgabe3-Ende-----------------------------------------");
     }
@@ -75,7 +74,7 @@ public class TestClass {
         System.out.println("------------------------------------Aufgabe6-Anfang-----------------------------------------");
         murderRobotDog.kill();
         murderRobotDog.drive();
-        murderRobotDog.animalSound();
+        murderRobotDog.makeSound();
         System.out.println("------------------------------------Aufgabe6-Ende-----------------------------------------");
     }
 

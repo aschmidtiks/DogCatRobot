@@ -1,5 +1,5 @@
 public abstract class AnimalWithFeathers extends Animal {
-    protected String feathersColor;
+    private String feathersColor;
     public AnimalWithFeathers(String feathersColor){
         this.feathersColor = feathersColor;
     }

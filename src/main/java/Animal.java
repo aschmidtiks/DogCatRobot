@@ -1,3 +1,5 @@
 public abstract class Animal {
-    abstract void poop();
+    public void poop() {
+        System.out.println("I Pooped");
+    }
 }

@@ -1,11 +1,11 @@
-import interfaces.AnimalSoundInterface;
+import interfaces.Noise;
 
-public class MurderRobotDog extends MurderRobot implements AnimalSoundInterface {
+public class MurderRobotDog extends MurderRobot implements Noise {
         public void kill() {
         System.out.println("Robodog is killing");
     }
 
-        public void animalSound() {
+        public void makeSound() {
         System.out.println("Robotic Wuff");
     }
 }

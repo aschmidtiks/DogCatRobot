@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface KillMethodInterface {
+public interface Killer {
     void kill();
 }

@@ -1,6 +1,6 @@
-import interfaces.AnimalSoundInterface;
+import interfaces.Noise;
 
-public class Cat extends AnimalWithFur implements AnimalSoundInterface {
+public class Cat extends AnimalWithFur implements Noise {
 
     public Cat(String furColor) {
         super(furColor);
@@ -10,11 +10,8 @@ public class Cat extends AnimalWithFur implements AnimalSoundInterface {
         super("brown");
     }
 
-    public void animalSound() {
+    public void makeSound() {
         System.out.println("Meow");
     }
 
-    void poop() {
-        System.out.println("I pooped");
-    }
 }

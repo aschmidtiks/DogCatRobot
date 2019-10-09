@@ -1,5 +1,5 @@
-public class Penguin extends WaterBird {
-    void poop() {
+public class Penguin extends Bird {
+    public void poop() {
         System.out.println("Penguin pooped not from above");
     }
 }
